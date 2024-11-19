@@ -21,6 +21,9 @@ body {
   overflow: hidden;
   background-color: aquamarine;
   width: 100vw;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar p {
@@ -29,8 +32,16 @@ body {
 
 .section {
   background-color: blueviolet;
-  max-height: 20vh;
+  max-height: 80vh;
   width: 100vw;
   margin: auto;
+  padding: 20px;
+}
+
+.section-projects {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
 }

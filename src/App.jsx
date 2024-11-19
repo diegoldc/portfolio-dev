@@ -1,19 +1,19 @@
 import './App.css'
-import Navbar from "./components/Navbar"
+import NavbarSection from "./components/Navbar"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Footer from "./components/Footer"
+import FooterSection from "./components/Footer"
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <NavbarSection />
       <About />
       <Projects />
       <Skills />
-      <Footer />
+      <FooterSection />
     </>
   )
 }
