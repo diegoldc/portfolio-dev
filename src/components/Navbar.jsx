@@ -1,7 +1,14 @@
 
 import { Navbar } from "flowbite-react";
+import { ThemeContext } from "../context/theme.context";
+import { useContext, useEffect, useState } from "react";
+
+
 
 function NavbarSection() {
+
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
     <Navbar fluid rounded >
       {/* className="fixed top-0 left-0 w-full z-50" */}
@@ -11,6 +18,18 @@ function NavbarSection() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
+
+      <label className="ui-switch">
+          <input
+            type="checkbox"
+            checked={theme === "dark"}
+            onChange={toggleTheme}
+          />
+          <div className="slider">
+            <div className="circle"></div>
+          </div>
+        </label>
+
         <Navbar.Link href="#" active>
           About
         </Navbar.Link>

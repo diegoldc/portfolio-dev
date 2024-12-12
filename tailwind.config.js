@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Rubik", "sans-serif"], // Cambia la fuente predeterminada
+      },
       colors: {
         'deep-purple': '#673AB7',
         "light-purple": "#d8b4fe",

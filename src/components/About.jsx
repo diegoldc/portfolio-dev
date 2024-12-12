@@ -1,14 +1,15 @@
 import { Card, Dropdown, Button, Avatar, Blockquote } from "flowbite-react";
+import cv from "../files/cv-Diego.pdf"
 
 function About() {
   return (
     <>
       <div>About</div>
 
-      <h1 className="text-xl font-bold underline">Hello world!</h1>
+      <h1 className="text-xl font-rubik underline">Hello world!</h1>
 
-      <Button>Hola</Button>
-
+      <a href={cv} download="cv_Lázaro_deCastro_Diego.pdf" className="h-8 cursor-pointer font-rubik rounded-md px-4 bg-blue-500 hover:bg-blue-800 transition-background duration-300 text-white flex items-center font-semibold">Download CV</a>
+ 
       
 
       <Blockquote>
