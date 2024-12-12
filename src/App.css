@@ -18,12 +18,13 @@ body {
 }
 
 .dark {
-  --bg-color-light: #1f2937;
+  --bg-color-light: #1a212c;
   --detail-color: #bb86fc;
   --font-color: white;
   --bg-color: #0f1a31;
   --navbar-bg: #272e46;
 }
+
 
 .navbar {
   display: flex;

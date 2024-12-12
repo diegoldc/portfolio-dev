@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 function Projects() {
   return (
     <>
-      <h1>Projects</h1>
+      <h2 className="w-auto text-3xl font-bold mb-10 text-center">Projects</h2>
       <div className="section-projects">
         <Card
           className="max-w-sm hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_rgba(231,212,240,0.8)]"
