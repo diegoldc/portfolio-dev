@@ -1,14 +1,19 @@
 import { Card, Button, Badge } from "flowbite-react";
 import { GrDeploy } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
+
 
 function Projects() {
+  
+  const { t } = useTranslation();
+
   return (
     <>
-      <h2 className="w-auto text-3xl font-bold mb-10 text-center">Projects</h2>
+      <h2 className="w-auto text-3xl font-bold mb-10 text-center">{t("projects")}</h2>
       <div className="section-projects">
         <Card
-          className="max-w-sm hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_rgba(231,212,240,0.8)]"
+          className="max-w-sm hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_rgba(231,212,240,0.8)] dark:bg-red-200"
           imgAlt="Example image"
           imgSrc="/images/tangle.png"
         >
@@ -77,6 +82,8 @@ function Projects() {
           </Button>
         </Card>
       </div>
+
+      
     </>
   );
 }

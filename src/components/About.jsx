@@ -1,17 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Blockquote } from "flowbite-react";
 import cv from "../files/cv-Diego.pdf";
+import { useTranslation } from 'react-i18next';
 
 function About() {
   const [isContactFormVisible, setContactFormVisible] = useState(false);
+  const [isTextVisible, setTextVisible] = useState(false);
 
   const handleFormSubmit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
     const email = e.target.email.value;
     const subject = e.target.subject.value;
     const message = e.target.message.value;
 
-    const yourEmail = "dlazarodecastro@gmail.com"; 
+    const yourEmail = "dlazarodecastro@gmail.com";
 
     // Crear el enlace mailto con tu dirección de correo
     const mailtoLink = `mailto:${yourEmail}?subject=${encodeURIComponent(
@@ -22,11 +24,41 @@ function About() {
     window.location.href = mailtoLink;
   };
 
+  useEffect(() => {
+    setTextVisible(true); // Activa la visibilidad del texto para iniciar la animación
+  }, []);
+  
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <>
-      <div>About</div>
 
-      <h1 className="text-xl font-rubik underline">Hello world!</h1>
+      <h1
+        className={`text-xl font-rubik underline transition-all duration-1000 ease-in-out ${
+          isTextVisible
+            ? "transform translate-x-0 opacity-100"
+            : "transform -translate-x-full opacity-0"
+        }`}
+      >
+        Sobre mí
+      </h1>
+
+      <div>
+      <h1>{t('welcome')}</h1>
+      <p>{t('about')}</p>
+      <h2>{t('projects.title')}</h2>
+      <p>{t('projects.description')}</p>
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('es')}>Español</button>
+    </div>
+
+      <Blockquote>
+        {t("about.text")}
+      </Blockquote>
 
       <a
         href={cv}
@@ -36,14 +68,8 @@ function About() {
         Download CV
       </a>
 
-      <Blockquote>
-        Flowbite is just awesome. It contains tons of predesigned components and
-        pages starting from login screen to complex dashboard. Perfect choice
-        for your next SaaS application.
-      </Blockquote>
-
       <button
-        className="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition"
+        className="animate-bounce mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition"
         onClick={() => setContactFormVisible(!isContactFormVisible)}
       >
         Contact Me

@@ -18,6 +18,17 @@ export default {
         "light-purple": "#d8b4fe",
         "logo-purple" : "#352842"
       },
+      backfaceVisibility: {
+        hidden: 'hidden',
+      },
+      rotate: {
+        'y-180': '180deg',
+      }
+    },
+  },
+  variants: {
+    extend: {
+      backfaceVisibility: ['responsive', 'hover', 'focus'],
     },
   },
   plugins: [
