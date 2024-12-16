@@ -2,6 +2,7 @@
 import { Navbar } from "flowbite-react";
 import { ThemeContext } from "../context/theme.context";
 import { useContext, useEffect, useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 
 
@@ -18,6 +19,8 @@ function NavbarSection() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
+
+        <LanguageSwitcher />
 
       <label className="ui-switch">
           <input

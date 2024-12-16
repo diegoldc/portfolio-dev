@@ -1,10 +1,15 @@
 import { Button, Timeline } from "flowbite-react";
 import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
+import { useTranslation } from 'react-i18next';
+
 
 function Experience() {
+
+  const { t } = useTranslation();
+
   return (
     <div className="m-10">
-    <h2 className="w-auto text-3xl font-bold mb-10 text-center">Experience</h2>
+    <h2 className="w-auto text-3xl font-bold mb-10 text-center">{t("experience")}</h2>
 
 
     <Timeline>

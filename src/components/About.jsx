@@ -28,11 +28,11 @@ function About() {
     setTextVisible(true); // Activa la visibilidad del texto para iniciar la animación
   }, []);
   
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  // const changeLanguage = (lng) => {
+  //   i18n.changeLanguage(lng);
+  // };
 
   return (
     <>
@@ -52,8 +52,6 @@ function About() {
       <p>{t('about')}</p>
       <h2>{t('projects.title')}</h2>
       <p>{t('projects.description')}</p>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('es')}>Español</button>
     </div>
 
       <Blockquote>
@@ -65,7 +63,7 @@ function About() {
         download="cv_Lázaro_deCastro_Diego.pdf"
         className="h-8 cursor-pointer font-rubik rounded-md px-4 bg-blue-500 hover:bg-blue-800 transition-background duration-300 text-white flex items-center font-semibold"
       >
-        Download CV
+        {t("download")}
       </a>
 
       <button
