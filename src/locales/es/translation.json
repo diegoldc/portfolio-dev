@@ -1,6 +1,9 @@
 {
   "welcome": "Bienvenido a mi portafolio",
-  "about": "Sobre mí",
+  "about": {
+    "title": "Sobre mí",
+    "text": "¡Hola! Soy Diego, desarrollador web con pasión por transformar ideas en experiencias digitales excepcionales. Me especializo en crear soluciones modernas, funcionales y visualmente atractivas que no solo cumplen, sino que superan las expectativas. Con experiencia en tecnologías como HTML, CSS, JavaScript, React, Node.js, y más, disfruto trabajar tanto en el frontend como en el backend para entregar proyectos completos y bien integrados. Mi enfoque está en escribir código limpio, optimizado y escalable, asegurándome de que cada detalle esté bien cuidado. Además de la programación, me encanta aprender nuevas tecnologías y tendencias del sector para mantenerme al día en un campo que siempre está en constante evolución. Ya sea colaborando con equipos multidisciplinarios o liderando proyectos, estoy comprometido a aportar valor y encontrar soluciones innovadoras. Cuando no estoy codificando, probablemente me encontrarás explorando nuevas herramientas, leyendo sobre diseño de experiencias de usuario o disfrutando de un buen café. Si estás buscando a alguien para dar vida a tu próximo proyecto web, ¡estaré encantado de colaborar contigo!"
+  },
   "contact": "Contáctame",
   "projects": {
     "title": "Mis Proyectos",
@@ -11,8 +14,35 @@
       "proj4": "Gestor de reservas de clases"
     }
   },
-  "about.text": "¡Hola! Soy Diego, desarrollador web con pasión por transformar ideas en experiencias digitales excepcionales. Me especializo en crear soluciones modernas, funcionales y visualmente atractivas que no solo cumplen, sino que superan las expectativas. Con experiencia en tecnologías como HTML, CSS, JavaScript, React, Node.js, y más, disfruto trabajar tanto en el frontend como en el backend para entregar proyectos completos y bien integrados. Mi enfoque está en escribir código limpio, optimizado y escalable, asegurándome de que cada detalle esté bien cuidado. Además de la programación, me encanta aprender nuevas tecnologías y tendencias del sector para mantenerme al día en un campo que siempre está en constante evolución. Ya sea colaborando con equipos multidisciplinarios o liderando proyectos, estoy comprometido a aportar valor y encontrar soluciones innovadoras. Cuando no estoy codificando, probablemente me encontrarás explorando nuevas herramientas, leyendo sobre diseño de experiencias de usuario o disfrutando de un buen café. Si estás buscando a alguien para dar vida a tu próximo proyecto web, ¡estaré encantado de colaborar contigo!",
   "download": "Descargar CV",
   "skills": "Habilidades",
-  "experience": "Experiencia"
+  "navbar": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "jobs": {
+      "exp1": {
+        "position": "Desarrollador web",
+        "company": "Empresa de desarrollo web",
+        "date": "2020 - Actualidad",
+        "description": "Desarrollo de aplicaciones web y sitios web utilizando tecnologías como HTML, CSS, JavaScript, React, Node.js, y más. Colaboración con equipos multidisciplinarios para entregar proyectos completos y bien integrados."
+      },
+      "exp2": {
+        "position": "Desarrollador de software",
+        "company": "Empresa de software",
+        "date": "2018 - 2020",
+        "description": "Desarrollo de software empresarial y aplicaciones móviles. Implementación de soluciones innovadoras para mejorar la eficiencia y productividad de los procesos internos."
+      },
+      "exp3": {
+        "position": "Desarrollador de software",
+        "company": "Empresa de software",
+        "date": "2018 - 2020",
+        "description": "Desarrollo de software empresarial y aplicaciones móviles. Implementación de soluciones innovadoras para mejorar la eficiencia y productividad de los procesos internos."
+      }
+    }
+  }
 }

@@ -58,7 +58,7 @@ function Projects() {
   ];
 
   return (
-    <section className="py-16 mx-auto sm:py-20">
+    <section className="py-16 mx-auto sm:py-20" id="projects">
       <h2 className="w-auto text-3xl font-bold mb-10 text-center">
         {t("projects.title")}
       </h2>

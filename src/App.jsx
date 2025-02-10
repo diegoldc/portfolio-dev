@@ -8,6 +8,7 @@ import { ThemeProvider } from "./context/theme.context.jsx";
 import Experience from "./components/Experience.jsx";
 import './i18n';
 // import CardTest from "./components/CardTest.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NavbarSection />
       {/* <LanguageSwitcher /> */}
       <About />
+      <Contact />
       <Projects />
       {/* <CardTest /> */}
       <Skills />

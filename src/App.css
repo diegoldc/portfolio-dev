@@ -29,7 +29,7 @@ body {
 .navbar {
   display: flex;
   gap: 10px;
-  /* position: fixed; */
+  position: fixed;
   left: 0;
   overflow: hidden;
   background-color: var(--navbar-bg);
@@ -39,9 +39,6 @@ body {
   justify-content: center;
 }
 
-.navbar p {
-  padding-left: 5px;
-}
 
 .section {
   background-color: var(--bg-color-light);
@@ -49,6 +46,18 @@ body {
   width: 100vw;
   margin: auto;
   padding: 20px;
+}
+
+#about {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 100px;
+  max-width: 75%;
 }
 
 .section-projects {
@@ -59,11 +68,13 @@ body {
   padding: 20px;
 }
 
-.section-skills {
+#skills {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0;
+  width: 100%;
 }
 
 .icon {
