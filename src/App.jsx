@@ -7,6 +7,7 @@ import FooterSection from "./components/Footer";
 import { ThemeProvider } from "./context/theme.context.jsx";
 import Experience from "./components/Experience.jsx";
 import './i18n';
+// import CardTest from "./components/CardTest.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* <LanguageSwitcher /> */}
       <About />
       <Projects />
+      {/* <CardTest /> */}
       <Skills />
       <Experience />
       <FooterSection />

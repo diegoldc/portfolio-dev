@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ReactOriginal, Html5Original, JavascriptOriginal, Css3Original, NodejsOriginalWordmark, ExpressOriginal, MongodbOriginal, TailwindcssOriginal, GitOriginal } from 'devicons-react';
+import { ReactOriginal, Html5Original, JavascriptOriginal, Css3Original, NodejsOriginalWordmark, ExpressOriginal, MongodbOriginal, TailwindcssOriginal, GitOriginal, BootstrapOriginal, FirebaseOriginal, ReactnativeOriginalWordmark } from 'devicons-react';
 
 function Skills() {
 
@@ -54,9 +54,25 @@ function Skills() {
           </div>
 
           <div className="flex flex-col items-center gap-2 group">
+          <BootstrapOriginal size="70"/>
+          <span>Bootstrap</span>
+          </div>
+
+          <div className="flex flex-col items-center gap-2 group">
           <GitOriginal size="70"/>
           <span>Git</span>
           </div>
+
+          <div className="flex flex-col items-center gap-2 group">
+          <FirebaseOriginal size="70"/>
+          <span>Firebase</span>
+          </div>
+
+          <div className="flex flex-col items-center gap-2 group">
+          <ReactnativeOriginalWordmark size="70"/>
+          <span>React Native</span>
+          </div>
+
         </div>
       </div>
     </div>

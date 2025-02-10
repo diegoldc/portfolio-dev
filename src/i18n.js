@@ -16,7 +16,7 @@ const resources = {
 i18n.use(initReactI18next).init({
   resources,
   lng: 'es', // Set the default language
-  keySeparator: true, // Habilitar claves anidadas (o elimina esta línea)
+  keySeparator: ".", // Habilitar claves anidadas (o elimina esta línea)
   fallbackLng: false,
   interpolation: {
     escapeValue: false,

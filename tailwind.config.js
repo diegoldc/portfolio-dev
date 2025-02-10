@@ -22,13 +22,17 @@ export default {
         hidden: 'hidden',
       },
       rotate: {
-        'y-180': '180deg',
+        'y-180': 'rotateY(180deg)',
+      },
+      perspective: {
+        1000: '1000px',
       }
     },
   },
   variants: {
     extend: {
       backfaceVisibility: ['responsive', 'hover', 'focus'],
+      transform: ['hover', 'focus']
     },
   },
   plugins: [
