@@ -29,7 +29,7 @@ function Experience() {
   ]
 
   return (
-    <div className="m-10">
+    <div className="m-10 max-w-2xl">
     <h2 className="w-auto text-3xl font-bold mb-10 text-center">{t("experience.title")}</h2>
 
 
@@ -39,7 +39,7 @@ function Experience() {
         <Timeline.Point icon={HiCalendar} />
         <Timeline.Content>
           <Timeline.Time>{job.date}</Timeline.Time>
-          <Timeline.Title>{job.title}</Timeline.Title>
+          <Timeline.Title>{job.title} - {job.company}</Timeline.Title>
           <Timeline.Body>
             {job.description}
           </Timeline.Body>

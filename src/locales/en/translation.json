@@ -27,15 +27,15 @@
     "jobs": {
       "exp1": {
         "position": "Web Developer",
-        "company": "Web Development Company",
-        "date": "2020 - Present",
-        "description": "Development of web applications and websites using technologies such as HTML, CSS, JavaScript, React, Node.js, and more. Collaboration with multidisciplinary teams to deliver complete and well-integrated projects."
+        "company": "Nett Digital School",
+        "date": "2024 - Zaragoza",
+        "description": "Internship as part of the Advanced Vocational Training in Web Application Development. I participated as a developer in a collaborative environment, working on the creation and maintenance of web applications. I used technologies such as PHP, WordPress, HTML, CSS, and SQL, focusing on both functionality and code efficiency. I also managed servers on IONOS, ensuring optimal performance and service availability."
       },
       "exp2": {
-        "position": "Software Developer",
-        "company": "Software Company",
-        "date": "2018 - 2020",
-        "description": "Development of enterprise software and mobile applications. Implementation of innovative solutions to improve efficiency and productivity in internal processes."
+        "position": "Meetings and Events Senior Planner",
+        "company": "Avoris",
+        "date": "2016 - 2024 | Bilbao",
+        "description": "Management of major corporate accounts and sports teams, coordinating events and travel. My responsibilities included logistical planning, invoicing control, payment tracking, and personalized service for key clients."
       },
       "exp3": {
         "position": "Software Developer",
@@ -44,6 +44,30 @@
         "description": "Development of enterprise software and mobile applications. Implementation of innovative solutions to improve efficiency and productivity in internal processes."
       }
     }
+  },
+  "formacion": {
+  "title": "Education",
+  "studies": {
+    "study1": {
+      "degree": "Higher Degree in Web Application Development",
+      "school": "Medac Zaragoza",
+      "date": "2024 - Zaragoza",
+      "description": "Specialized training in web application development, with a practical and project-oriented approach. I acquired knowledge in programming languages, databases, web design, and agile methodologies, among others."
+    },
+    "study2": {
+      "degree": "Bachelor’s Degree in Tourism",
+      "school": "University of Deusto",
+      "date": "2016 - Bilbao",
+      "description": "University education in tourism, with an emphasis on event management, tourism marketing, and destination planning. I completed internships in industry-related companies to apply theoretical knowledge in real-world environments."
+    },
+    "study3": {
+      "degree": "Bachelor’s Degree in Tourism",
+      "school": "University of Deusto",
+      "date": "2016 - Bilbao",
+      "description": "University education in tourism, with an emphasis on event management, tourism marketing, and destination planning. I completed internships in industry-related companies to apply theoretical knowledge in real-world environments."
+    }
   }
+}
+
 
 }

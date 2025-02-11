@@ -27,21 +27,44 @@
     "jobs": {
       "exp1": {
         "position": "Desarrollador web",
-        "company": "Empresa de desarrollo web",
-        "date": "2020 - Actualidad",
-        "description": "Desarrollo de aplicaciones web y sitios web utilizando tecnologías como HTML, CSS, JavaScript, React, Node.js, y más. Colaboración con equipos multidisciplinarios para entregar proyectos completos y bien integrados."
+        "company": "Nett Digital School",
+        "date": "2024 - Zaragoza",
+        "description": "Prácticas por el Grado Superior de Desarrollo de Aplicaciones Web. Participé como desarrollador en un entorno colaborativo, trabajando en la creación y mantenimiento de aplicaciones web. Utilicé tecnologías como PHP, WordPress, HTML, CSS y SQL, enfocándome tanto en la funcionalidad como en la eficiencia del código. También gestioné servidores en IONOS, asegurando un rendimiento óptimo y disponibilidad del servicio."
       },
       "exp2": {
-        "position": "Desarrollador de software",
-        "company": "Empresa de software",
-        "date": "2018 - 2020",
-        "description": "Desarrollo de software empresarial y aplicaciones móviles. Implementación de soluciones innovadoras para mejorar la eficiencia y productividad de los procesos internos."
+        "position": "Meetings and Events Senior Planner",
+        "company": "Avoris",
+        "date": "2016 - 2024 | Bilbao",
+        "description": "Gestión de grandes cuentas corporativas y equipos deportivos, coordinando eventos y viajes. Entre mis responsabilidades se incluyeron la planificación logística, control de facturación y seguimiento de pagos, así como la atención personalizada a clientes estratégicos."
       },
       "exp3": {
         "position": "Desarrollador de software",
         "company": "Empresa de software",
         "date": "2018 - 2020",
         "description": "Desarrollo de software empresarial y aplicaciones móviles. Implementación de soluciones innovadoras para mejorar la eficiencia y productividad de los procesos internos."
+      }
+    }
+  },
+  "formacion": {
+    "title": "Formación",
+    "studies": {
+      "study1": {
+        "degree": "Grado Superior en Desarrollo de Aplicaciones Web",
+        "school": "Medac Zaragoza",
+        "date": "2024 - Zaragoza",
+        "description": "Formación especializada en el desarrollo de aplicaciones web, con un enfoque práctico y orientado a proyectos. Adquirí conocimientos en lenguajes de programación, bases de datos, diseño web, y metodologías ágiles, entre otros."
+      },
+      "study2": {
+        "degree": "Grado en Turismo",
+        "school": "Universidad de Deusto",
+        "date": "2016 - Bilbao",
+        "description": "Formación universitaria en turismo, con énfasis en gestión de eventos, marketing turístico, y planificación de destinos. Realicé prácticas en empresas del sector para aplicar los conocimientos teóricos en entornos reales."
+      },
+      "study3": {
+        "degree": "Grado en Turismo",
+        "school": "Universidad de Deusto",
+        "date": "2016 - Bilbao",
+        "description": "Formación universitaria en turismo, con énfasis en gestión de eventos, marketing turístico, y planificación de destinos. Realicé prácticas en empresas del sector para aplicar los conocimientos teóricos en entornos reales."
       }
     }
   }

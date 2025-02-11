@@ -9,6 +9,7 @@ import Experience from "./components/Experience.jsx";
 import './i18n';
 // import CardTest from "./components/CardTest.jsx";
 import Contact from "./components/Contact.jsx";
+import Formacion from "./components/Formacion.jsx";
 
 function App() {
   return (
@@ -20,7 +21,11 @@ function App() {
       <Projects />
       {/* <CardTest /> */}
       <Skills />
+      <div className="exp">
+
+      <Formacion />
       <Experience />
+      </div>
       <FooterSection />
     </ThemeProvider>
   );

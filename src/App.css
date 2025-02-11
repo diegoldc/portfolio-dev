@@ -188,3 +188,11 @@ body {
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+
+.exp {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
