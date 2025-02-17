@@ -32,7 +32,7 @@ function About() {
         </a>
       </div>
 
-      {/* Texto */}
+
       <div className="md:w-1/2 text-center md:text-left space-y-4">
         <h1
           className={`text-3xl font-bold underline transition-all duration-1000 ease-in-out ${

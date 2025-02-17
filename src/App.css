@@ -73,3 +73,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+
+.icon-transition {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.icon-transition.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

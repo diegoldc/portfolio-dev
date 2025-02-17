@@ -7,7 +7,7 @@ import FooterSection from "./components/Footer";
 import { ThemeProvider } from "./context/theme.context.jsx";
 import Experience from "./components/Experience.jsx";
 import "./i18n";
-import Contact from "./components/Contact.jsx";
+// import Contact from "./components/Contact.jsx";
 import Formacion from "./components/Formacion.jsx";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       </div>
         {/* Contenido de la app */}
         <About />
-        <Contact />
+        {/* <Contact /> */}
         <Projects />
         <Skills />
         <div className="exp">
