@@ -3,7 +3,7 @@ import { BsDribbble, BsGithub, BsLinkedin } from "react-icons/bs";
 
 function FooterSection() {
   return (
-    <Footer container>
+    <Footer container className="bg-white dark:bg-black">
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>

@@ -7,7 +7,7 @@ function Skills() {
 
   return (
     <>
-      <div className="section" id='skills'>
+      <div className="section dark:text-white" id='skills'>
         <div className="w-full flex justify-center items-center flex-col">
         <h2 className="w-auto text-3xl font-bold mb-10 text-center">{t("skills")}</h2>
 

@@ -29,7 +29,7 @@ function Formacion() {
   ]
 
   return (
-    <div className="m-10 max-w-2xl">
+    <div className="m-10 max-w-2xl dark:text-white">
     <h2 className="w-auto text-3xl font-bold mb-10 text-center">{t("formacion.title")}</h2>
 
 

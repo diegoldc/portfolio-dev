@@ -16,7 +16,8 @@ export default {
       colors: {
         'deep-purple': '#673AB7',
         "light-purple": "#d8b4fe",
-        "logo-purple" : "#352842"
+        "logo-purple" : "#352842",
+        "page-purple": "#63e",
       },
       backfaceVisibility: {
         hidden: 'hidden',

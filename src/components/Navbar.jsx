@@ -3,6 +3,7 @@ import { ThemeContext } from "../context/theme.context";
 import { useContext } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 function NavbarSection() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -10,7 +11,7 @@ function NavbarSection() {
   const { t } = useTranslation();
 
   return (
-    <Navbar fluid rounded className="fixed top-0 left-0 w-full z-50">
+    <Navbar fluid rounded className="fixed top-0 left-0 w-full z-50 dark:bg-black">
       <Navbar.Brand href="/">
         <img
           src="/foto.png"
@@ -23,19 +24,6 @@ function NavbarSection() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <LanguageSwitcher />
-
-        <label className="ui-switch">
-          <input
-            type="checkbox"
-            checked={theme === "dark"}
-            onChange={toggleTheme}
-          />
-          <div className="slider">
-            <div className="circle"></div>
-          </div>
-        </label>
-
         <Navbar.Link href="#about" className="h-full flex items-center">
           {t("navbar.about")}
         </Navbar.Link>
@@ -48,6 +36,16 @@ function NavbarSection() {
         >
           {t("navbar.contact")}
         </Navbar.Link>
+
+        <LanguageSwitcher />
+        
+        <DarkModeSwitch
+          checked={theme === "dark"}
+          onChange={toggleTheme}
+          size={30}
+          moonColor="#f1c40f"
+          sunColor="#f39c12"
+        />
       </Navbar.Collapse>
     </Navbar>
   );

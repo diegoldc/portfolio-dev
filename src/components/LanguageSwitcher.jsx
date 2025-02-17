@@ -1,41 +1,40 @@
 import { useTranslation } from "react-i18next";
-import English from "../../node_modules/language-icons/icons/en.svg";
-import Spanish from "../../node_modules/language-icons/icons/es.svg";
-import { Dropdown } from "flowbite-react";
+import ReactCountryFlag from "react-country-flag";
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
 
-  const { t } = useTranslation();
-
   return (
-
-    <Dropdown label={t("navbar.language")} inline>      <Dropdown.Item
-        onClick={() => changeLanguage("en")}
-        style={{ display: "flex", alignItems: "center", gap: "10px" }}
-      >
-        <img
-          src={English}
-          alt="en"
-          style={{ borderRadius: "75px", height: "40px" }}
+    <div style={{ cursor: "pointer" }}>
+      {currentLanguage === "en" ? (
+        <ReactCountryFlag
+          countryCode="GB"
+          svg
+          style={{
+            width: "2em",
+            height: "2em",
+          }}
+          title="GB"
+          onClick={() => changeLanguage("es")}
         />
-        English
-      </Dropdown.Item>
-      <Dropdown.Item
-        onClick={() => changeLanguage("es")}
-        style={{ display: "flex", alignItems: "center", gap: "10px" }}
-      >
-        <img
-          src={Spanish}
-          alt="es"
-          style={{ borderRadius: "75px", height: "40px" }}
+      ) : (
+        <ReactCountryFlag
+          countryCode="ES"
+          svg
+          style={{
+            width: "2em",
+            height: "2em",
+          }}
+          title="ES"
+          onClick={() => changeLanguage("en")}
         />
-        Español
-      </Dropdown.Item>
-    </Dropdown>
+      )}
+    </div>
   );
 }
 
