@@ -71,7 +71,7 @@ function Projects() {
         {projects.map((project) => (
           <Card
             key={project.name}
-            className="relative max-w-sm hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_rgba(231,212,240,0.8)] dark:bg-black dark:text-white"
+            className="relative max-w-sm hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#cfc0fb] dark:bg-black dark:text-white"
             imgAlt="Image"
             imgSrc={project.imgSrc}
           >

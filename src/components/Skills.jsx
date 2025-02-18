@@ -70,7 +70,7 @@ function Skills() {
               }`}
               onClick={() => handleTabClick("learning")}
             >
-              Aprendiendo
+              {t("learning")}
             </h2>
           </div>
 
