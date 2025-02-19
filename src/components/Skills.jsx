@@ -33,12 +33,6 @@ function Skills() {
   ];
 
   const learningIcons = [
-    { icon: <NodejsOriginalWordmark size="70" />, name: "Node.js" },
-    { icon: <ExpressOriginal size="70" />, name: "Express.js" },
-    { icon: <MongodbOriginal size="70" />, name: "MongoDB" },
-    { icon: <TailwindcssOriginal size="70" />, name: "TailwindCSS" },
-    { icon: <BootstrapOriginal size="70" />, name: "Bootstrap" },
-    { icon: <GitOriginal size="70" />, name: "Git" },
     { icon: <FirebaseOriginal size="70" />, name: "Firebase" },
     { icon: <ReactnativeOriginalWordmark size="70" />, name: "React Native" },
   ];
@@ -74,24 +68,33 @@ function Skills() {
             </h2>
           </div>
 
-          <div className="w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-y-12">
+          {/* Contenedor para skills */}
+          <div
+            className={`w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-y-12 ${
+              activeTab !== "skills" ? "hidden" : ""
+            }`}
+          >
             {skillsIcons.map((item, index) => (
               <div
                 key={index}
-                className={`flex flex-col items-center gap-2 group icon-transition ${
-                  activeTab !== "skills" ? "hidden" : ""
-                }`}
+                className="flex flex-col items-center gap-2 group icon-transition"
               >
                 {item.icon}
                 <span>{item.name}</span>
               </div>
             ))}
+          </div>
+
+          {/* Contenedor para learning */}
+          <div
+            className={`w-full flex justify-center items-center gap-24 ${
+              activeTab !== "learning" ? "hidden" : ""
+            }`}
+          >
             {learningIcons.map((item, index) => (
               <div
                 key={index}
-                className={`flex flex-col items-center gap-2 group icon-transition ${
-                  activeTab !== "learning" ? "hidden" : ""
-                }`}
+                className="flex flex-col items-center gap-2 group icon-transition"
               >
                 {item.icon}
                 <span>{item.name}</span>
