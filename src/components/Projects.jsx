@@ -71,36 +71,16 @@ function Projects() {
         {projects.map((project) => (
           <Card
             key={project.name}
-            className="relative max-w-sm hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#cfc0fb] dark:bg-black dark:text-white"
+            className="relative min-w-[200px] max-w-[350px] hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#cfc0fb] dark:bg-black dark:text-white"
             imgAlt="Image"
             imgSrc={project.imgSrc}
           >
-
             <h5 className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
               {project.name}
             </h5>
-            <p className="font-normal text-center text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-center text-gray-700 dark:text-gray-400 flex-grow">
               {project.description}
             </p>
-
-            {project.status === "done" && (
-              <div className="flex gap-3 justify-center">
-                <a href={project.deploy}>
-                  <GrDeploy />
-                </a>
-                <a href={project.github}>
-                  <FaGithub />
-                </a>
-              </div>
-            )}
-
-            {project.status === "in-progress" && (
-              <img
-                src={workImage}
-                alt="work in progress"
-                className="absolute bottom-0 left-0 w-20 h-20"
-              />
-            )}
 
             <div className="techs">
               {project.techs.map((tech) => (
@@ -110,6 +90,22 @@ function Projects() {
               ))}
             </div>
 
+            {project.status === "done" ? (
+              <div className="flex gap-3 justify-center">
+                <a href={project.deploy}>
+                  <GrDeploy />
+                </a>
+                <a href={project.github}>
+                  <FaGithub />
+                </a>
+              </div>
+            ) : (
+              <img
+                src={workImage}
+                alt="work in progress"
+                className="flex gap-3 justify-center w-10 h-10 m-auto"
+              />
+            )}
           </Card>
         ))}
       </div>

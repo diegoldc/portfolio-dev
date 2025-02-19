@@ -25,7 +25,15 @@ function Skills() {
     { icon: <ReactOriginal size="70" />, name: "React JS" },
     { icon: <Css3Original size="70" />, name: "Css3" },
     { icon: <NodejsOriginalWordmark size="70" />, name: "Node.js" },
-    { icon: <ExpressOriginal size="70" />, name: "Express.js" },
+    {
+      icon: (
+        <ExpressOriginal
+          size="70"
+          className="fill-current"
+        />
+      ),
+      name: "Express.js",
+    },
     { icon: <MongodbOriginal size="70" />, name: "MongoDB" },
     { icon: <TailwindcssOriginal size="70" />, name: "TailwindCSS" },
     { icon: <BootstrapOriginal size="70" />, name: "Bootstrap" },
@@ -40,6 +48,7 @@ function Skills() {
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+
 
   return (
     <>
@@ -70,7 +79,7 @@ function Skills() {
 
           {/* Contenedor para skills */}
           <div
-            className={`w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-y-12 ${
+            className={`w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-y-12 border-4 border-deep-purple rounded-lg p-10 m-auto w-11/12 max-w-7xl dark:border-white ${
               activeTab !== "skills" ? "hidden" : ""
             }`}
           >
@@ -87,7 +96,7 @@ function Skills() {
 
           {/* Contenedor para learning */}
           <div
-            className={`w-full flex justify-center items-center gap-24 ${
+            className={`w-full flex justify-center items-center gap-24 border-4 border-deep-purple rounded-lg p-10 m-auto w-11/12 max-w-7xl dark:border-white ${
               activeTab !== "learning" ? "hidden" : ""
             }`}
           >
