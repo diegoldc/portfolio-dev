@@ -12,6 +12,12 @@
       "proj2": "JavaScript Game",
       "proj3": "Video Game Library",
       "proj4": "Class Booking Manager"
+    },
+    "info": {
+      "proj1": "",
+      "proj2": "",
+      "proj3": "",
+      "proj4": ""
     }
   },
   "download": "Download CV",
@@ -56,10 +62,10 @@
       "description": "Specialized training in web application development, with a practical and project-oriented approach. I acquired knowledge in programming languages, databases, web design, and agile methodologies, among others."
     },
     "study2": {
-      "degree": "Bachelor’s Degree in Tourism",
-      "school": "University of Deusto",
-      "date": "2016 - Bilbao",
-      "description": "University education in tourism, with an emphasis on event management, tourism marketing, and destination planning. I completed internships in industry-related companies to apply theoretical knowledge in real-world environments."
+      "degree": "Full Stack Web Development Bootcamp",
+      "school": "Ironhack",
+      "date": "2024 | Remote",
+      "description": "Intensive full-stack web development training at Ironhack, with a hands-on, project-based approach. I gained skills in technologies such as JavaScript, Node.js, HTML, CSS, React, Express, and MongoDB. I learned to build complete web applications, from front-end to back-end, applying agile methodologies and best programming practices."
     },
     "study3": {
       "degree": "Bachelor’s Degree in Tourism",

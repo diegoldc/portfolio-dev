@@ -12,6 +12,12 @@
       "proj2": "Juego JavaScript",
       "proj3": "Biblioteca de videojuegos",
       "proj4": "Gestor de reservas de clases"
+    },
+    "info": {
+      "proj1": "",
+      "proj2": "",
+      "proj3": "",
+      "proj4": ""
     }
   },
   "download": "Descargar CV",
@@ -52,14 +58,14 @@
       "study1": {
         "degree": "Grado Superior en Desarrollo de Aplicaciones Web",
         "school": "Medac Zaragoza",
-        "date": "2024 - Zaragoza",
+        "date": "2022 - 2024 | Zaragoza",
         "description": "Formación especializada en el desarrollo de aplicaciones web, con un enfoque práctico y orientado a proyectos. Adquirí conocimientos en lenguajes de programación, bases de datos, diseño web, y metodologías ágiles, entre otros."
       },
       "study2": {
-        "degree": "Grado en Turismo",
-        "school": "Universidad de Deusto",
-        "date": "2016 - Bilbao",
-        "description": "Formación universitaria en turismo, con énfasis en gestión de eventos, marketing turístico, y planificación de destinos. Realicé prácticas en empresas del sector para aplicar los conocimientos teóricos en entornos reales."
+        "degree": "Full Stack Web Development Bootcamp",
+        "school": "Ironhack",
+        "date": "2024 | Remote",
+        "description": "Formación intensiva en desarrollo web full-stack en Ironhack, con un enfoque práctico y basado en proyectos. Adquirí habilidades en tecnologías como JavaScript, Node.js, HTML, CSS, React, Express y MongoDB. Aprendí a construir aplicaciones web completas, desde el front-end hasta el back-end, aplicando metodologías ágiles y buenas prácticas de programación."
       },
       "study3": {
         "degree": "Grado en Turismo",
