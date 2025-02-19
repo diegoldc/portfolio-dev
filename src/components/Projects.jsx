@@ -54,7 +54,7 @@ function Projects() {
     {
       name: "GYM APP",
       description: t("projects.description.proj4"),
-      imgSrc: "/images/1up.jpeg",
+      imgSrc: "/images/in-progress.jpg",
       techs: ["React Native", "Firebase", "Tailwind"],
       deploy: "",
       github: "",
@@ -67,13 +67,18 @@ function Projects() {
       <h2 className="w-auto text-3xl font-bold mb-10 text-center dark:text-white">
         {t("projects.title")}
       </h2>
-      <div className="section-projects">
+      <div className="flex flex-wrap justify-center gap-[30px] p-[20px]">
         {projects.map((project) => (
           <Card
             key={project.name}
-            className="relative min-w-[200px] max-w-[350px] hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#cfc0fb] dark:bg-black dark:text-white"
-            imgAlt="Image"
-            imgSrc={project.imgSrc}
+            className="relative w-[350px] hover:-translate-x-2 transition-all duration-500 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#cfc0fb] dark:bg-black dark:text-white"
+            renderImage={() => (
+              <img
+                src={project.imgSrc}
+                alt={project.name}
+                className="w-full h-40 object-cover"
+              />
+            )}
           >
             <h5 className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
               {project.name}

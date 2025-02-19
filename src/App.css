@@ -25,23 +25,6 @@ body {
   --navbar-bg: #272e46;
 } */
 
-.section-projects {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
-/* #skills {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  width: 100%;
-} */
-
 .icon {
   width: 50px;
   object-fit: contain;
