@@ -52,10 +52,15 @@ function Experience() {
                   {job.description}
                 </div>
               </Timeline.Body>
-              <Button color="gray" onClick={() => handleLearnMoreClick(index)}>
-                {expandedText === index ? "Show Less" : "Learn More"}
-                <HiArrowNarrowRight className="ml-2 h-3 w-3" />
-              </Button>
+              {job.description.length > 250 && (
+                <Button
+                  color="gray"
+                  onClick={() => handleLearnMoreClick(index)}
+                >
+                  {expandedText === index ? "Show Less" : "Learn More"}
+                  <HiArrowNarrowRight className="ml-2 h-3 w-3" />
+                </Button>
+              )}
             </Timeline.Content>
           </Timeline.Item>
         ))}
