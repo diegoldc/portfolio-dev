@@ -83,7 +83,7 @@ function Skills() {
 
           {/* Contenedor para skills */}
           <div
-            className={`w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-y-12 border-4 border-deep-purple rounded-lg p-6 m-auto w-11/12 max-w-7xl dark:border-white ${
+            className={`w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-y-12 border-4 border-purple-200 rounded-lg p-6 m-auto w-11/12 max-w-7xl dark:border-purple-400 ${
               activeTab !== "skills" ? "hidden" : ""
             }`}
           >
@@ -100,7 +100,7 @@ function Skills() {
 
           {/* Contenedor para learning */}
           <div
-            className={`w-full flex flex-wrap justify-center items-center gap-24 border-4 border-deep-purple rounded-lg p-6 m-auto w-11/12 max-w-7xl dark:border-white ${
+            className={`w-full flex flex-wrap justify-center items-center gap-24 border-4 border-purple-200 rounded-lg p-6 m-auto w-11/12 max-w-7xl dark:border-purple-400 ${
               activeTab !== "learning" ? "hidden" : ""
             }`}
           >
