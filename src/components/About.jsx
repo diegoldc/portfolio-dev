@@ -20,7 +20,7 @@ function About() {
       <div className="md:w-96 flex flex-col items-center space-y-4">
         <img
           className="rounded-full w-80 h-80 object-cover shadow-lg"
-          src="dist/foto.png"
+          src="/foto.png"
           alt="profile"
         />
 

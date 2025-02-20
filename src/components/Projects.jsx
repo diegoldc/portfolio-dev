@@ -11,7 +11,7 @@ function Projects() {
     {
       name: "Tangle",
       description: t("projects.description.proj1"),
-      imgSrc: "dist/images/tangle.png",
+      imgSrc: "/images/tangle.png",
       techs: [
         "HTML",
         "CSS",
@@ -28,7 +28,7 @@ function Projects() {
     {
       name: "Catch the snitch!",
       description: t("projects.description.proj2"),
-      imgSrc: "dist/images/snitch3.png",
+      imgSrc: "/images/snitch3.png",
       techs: ["HTML", "CSS", "JavaScript"],
       deploy: "https://diegoldc.github.io/catch-the-snitch/",
       github: "",
@@ -37,7 +37,7 @@ function Projects() {
     {
       name: "1UP",
       description: t("projects.description.proj3"),
-      imgSrc: "dist/images/1up.jpeg",
+      imgSrc: "/images/1up.jpeg",
       techs: [
         "HTML",
         "CSS",
@@ -54,7 +54,7 @@ function Projects() {
     {
       name: "GYM APP",
       description: t("projects.description.proj4"),
-      imgSrc: "dist/images/in-progress.jpg",
+      imgSrc: "/images/in-progress.jpg",
       techs: ["React Native", "Firebase", "Tailwind"],
       deploy: "",
       github: "",
