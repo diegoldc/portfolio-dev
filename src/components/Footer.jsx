@@ -15,8 +15,8 @@ function FooterSection() {
           <Footer.Copyright href="#" year={2025} by="Diego Lázaro" />
 
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsLinkedin} />
-            <Footer.Icon href="#" icon={BsGithub} />
+            <Footer.Icon href="https://www.linkedin.com/in/diego-lazaro-decastro" icon={BsLinkedin} />
+            <Footer.Icon href="https://github.com/diegoldc" icon={BsGithub} />
             <Footer.Icon href="#" icon={BsDribbble} />
           </div>
         </div>

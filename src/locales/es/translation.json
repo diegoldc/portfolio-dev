@@ -14,10 +14,10 @@
       "proj4": "Gestor de reservas de clases"
     },
     "info": {
-      "proj1": "",
-      "proj2": "",
-      "proj3": "",
-      "proj4": ""
+      "proj1": "Desarrollo de una aplicación web para la gestión de proyectos, permitiendo a los usuarios crear, asignar tareas y realizar un seguimiento del progreso. Utilicé tecnologías como React para el frontend y Node.js con Express para el backend, junto con una base de datos MongoDB para almacenar la información.",
+      "proj2": "Creación de un juego interactivo utilizando JavaScript puro y HTML5 Canvas. El juego incluye mecánicas de plataformas y desafíos que aumentan en dificultad a medida que avanza el jugador. Fue un proyecto divertido que me permitió explorar el potencial de JavaScript en el desarrollo de juegos.",
+      "proj3": "Desarrollo de una plataforma web para catalogar y gestionar una colección de videojuegos. Los usuarios pueden agregar, editar y buscar juegos en la biblioteca. Utilicé React para la interfaz de usuario y Firebase para la autenticación y almacenamiento de datos.",
+      "proj4": "Aplicación web para gestionar reservas de clases en un centro educativo. Los usuarios pueden reservar, cancelar y ver sus clases programadas. Desarrollé el frontend con React y el backend con Node.js y Express, utilizando una base de datos MySQL para almacenar la información."
     }
   },
   "download": "Descargar CV",

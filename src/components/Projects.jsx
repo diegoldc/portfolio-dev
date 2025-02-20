@@ -1,8 +1,11 @@
 import { Card, Badge } from "flowbite-react";
 import { GrDeploy } from "react-icons/gr";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaPlus } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import workImage from "../assets/work.gif";
+import Popup from "reactjs-popup";
+
+
 
 function Projects() {
   const { t } = useTranslation();
@@ -24,6 +27,7 @@ function Projects() {
       deploy: "https://tangle-web.netlify.app/",
       github: "",
       status: "done",
+      popover: t("projects.info.proj1"),
     },
     {
       name: "Catch the snitch!",
@@ -33,6 +37,7 @@ function Projects() {
       deploy: "https://diegoldc.github.io/catch-the-snitch/",
       github: "",
       status: "done",
+      popover: t("projects.info.proj2"),
     },
     {
       name: "1UP",
@@ -50,6 +55,7 @@ function Projects() {
       deploy: "https://1up-app.netlify.app/",
       github: "",
       status: "done",
+      popover: t("projects.info.proj3"),
     },
     {
       name: "GYM APP",
@@ -59,6 +65,7 @@ function Projects() {
       deploy: "",
       github: "",
       status: "in-progress",
+      popover: t("projects.info.proj4"),
     },
   ];
 
@@ -83,9 +90,25 @@ function Projects() {
             <h5 className="text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
               {project.name}
             </h5>
-            <p className="font-normal text-center text-gray-700 dark:text-gray-400 flex-grow">
-              {project.description}
-            </p>
+            <div className="relative flex flex-col justify-center items-center gap-2 flex-grow">
+              <p className="font-normal text-center text-gray-700 dark:text-gray-400">
+                {project.description}
+              </p>
+
+              <Popup
+                trigger={<button>{<FaPlus />}</button>}
+                position="top start"
+                closeOnDocumentClick={true}
+              
+                
+                
+              >
+                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white border-4 p-4 min-w-[320px] dark:border-white dark:bg-gray-800 opacity-95">
+
+                <div className="bg-purple-400 border-4 p-2 dark:bg-purple-500 dark:text-white">{project.popover}</div>
+                </div>
+              </Popup>
+            </div>
 
             <div className="techs">
               {project.techs.map((tech) => (

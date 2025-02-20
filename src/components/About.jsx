@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import cv from "../files/cv-Diego.pdf";
 import { useTranslation } from "react-i18next";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function About() {
   const [isTextVisible, setTextVisible] = useState(false);
@@ -23,6 +24,14 @@ function About() {
           src="/foto.png"
           alt="profile"
         />
+        <div className="flex gap-4">
+          <a href="">
+            <FaLinkedin size={50} className="text-purple-400 dark:text-white" />
+          </a>
+          <a href="https://github.com/diegoldc">
+            <FaGithub size={50} className="text-purple-400 dark:text-white" />
+          </a>
+        </div>
 
         {/* Botón de descarga del CV */}
         <a href={cv} download="cv_Lázaro_deCastro_Diego.pdf">
@@ -31,7 +40,6 @@ function About() {
           </button>
         </a>
       </div>
-
 
       <div className="md:w-1/2 text-center md:text-left space-y-4">
         <h1

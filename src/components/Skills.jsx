@@ -57,7 +57,7 @@ function Skills() {
   return (
     <>
       <div className="dark:text-white mb-20">
-        <div className="w-full max-w-7xl m-auto flex justify-center items-center flex-col p-2">
+        <div className="w-full max-w-7xl m-auto flex justify-center items-center flex-col p-4">
           <div className="flex gap-10 mb-10">
             <h2
               className={`text-3xl font-bold cursor-pointer ${
@@ -100,7 +100,7 @@ function Skills() {
 
           {/* Contenedor para learning */}
           <div
-            className={`w-full flex justify-center items-center gap-24 border-4 border-deep-purple rounded-lg p-6 m-auto w-11/12 max-w-7xl dark:border-white ${
+            className={`w-full flex flex-wrap justify-center items-center gap-24 border-4 border-deep-purple rounded-lg p-6 m-auto w-11/12 max-w-7xl dark:border-white ${
               activeTab !== "learning" ? "hidden" : ""
             }`}
           >
