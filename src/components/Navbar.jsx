@@ -14,7 +14,7 @@ function NavbarSection() {
     <Navbar fluid rounded className="fixed top-0 left-0 w-full z-50 dark:bg-black">
       <Navbar.Brand href="/">
         <img
-          src="/foto.png"
+          src="dist/foto.png"
           className="mr-3 h-6 sm:h-9"
           alt="Flowbite React Logo"
         />
