@@ -9,6 +9,7 @@ import Experience from "./components/Experience.jsx";
 import "./i18n";
 // import Contact from "./components/Contact.jsx";
 import Formacion from "./components/Formacion.jsx";
+import LandbotWidget from "./components/LandbotWidget";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Formacion />
           <Experience />
         </div>
+        <LandbotWidget />
         <FooterSection />
     </ThemeProvider>
   );
