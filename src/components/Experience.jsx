@@ -33,7 +33,7 @@ function Experience() {
   };
 
   return (
-    <div className="m-10 max-w-2xl dark:text-white">
+    <div className="m-10 max-w-2xl dark:text-white" id="experience">
       <h2 className="w-auto text-3xl font-bold mb-10 text-center">{t("experience.title")}</h2>
 
       <Timeline>

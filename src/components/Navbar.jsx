@@ -19,7 +19,7 @@ function NavbarSection() {
       setScrolled(window.scrollY > 20);
 
       // Detectar sección activa
-      const sections = ["about", "projects", "contact"];
+      const sections = ["about", "projects", "formacion", "contact"];
       const current = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -42,6 +42,7 @@ function NavbarSection() {
   const navLinks = [
     { href: "#about", label: t("navbar.about") },
     { href: "#projects", label: t("navbar.projects") },
+    { href: "#formacion", label: t("experience.title") },
     { href: "mailto:dlazarodecastro@gmail.com?subject=Consulta&body=Hola,", label: t("navbar.contact") },
   ];
 
