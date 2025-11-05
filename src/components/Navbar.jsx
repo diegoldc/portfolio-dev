@@ -66,7 +66,7 @@ function NavbarSection() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-300"></div>
                 <img
-                  src="/foto.png"
+                  src="/test2.png"
                   className="relative h-10 w-10 rounded-full object-cover ring-2 ring-purple-500/50 group-hover:ring-purple-500 transition-all duration-300"
                   alt="Logo"
                 />
