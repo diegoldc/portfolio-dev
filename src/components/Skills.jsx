@@ -16,6 +16,7 @@ import {
   TypescriptOriginal,
   JestPlain
 } from "devicons-react";
+import Azure from "../assets/azure.png"
 
 function Skills() {
   const { t } = useTranslation();
@@ -40,6 +41,7 @@ function Skills() {
     { icon: <TailwindcssOriginal size="50" />, name: "TailwindCSS" },
     { icon: <BootstrapOriginal size="50" />, name: "Bootstrap" },
     { icon: <GitOriginal size="50" />, name: "Git" },
+    { icon: <img src={Azure} alt="Azure" className="w-12 h-12" />, name: "Azure" },
   ];
 
   const learningIcons = [
