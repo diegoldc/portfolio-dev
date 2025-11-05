@@ -1,9 +1,9 @@
 {
   "welcome": "Welcome to my portfolio",
-  "about": {
-    "title": "About Me",
-    "text": "Hello! I’m Diego, a web developer with a passion for transforming ideas into exceptional digital experiences. I specialize in creating modern, functional, and visually appealing solutions that not only meet but exceed expectations. With experience in technologies such as HTML, CSS, JavaScript, React, Node.js, and more, I enjoy working on both the frontend and backend to deliver complete and well-integrated projects. My approach focuses on writing clean, optimized, and scalable code, ensuring that every detail is carefully handled. Besides programming, I love learning about new technologies and industry trends to stay up-to-date in a constantly evolving field. Whether collaborating with multidisciplinary teams or leading projects, I’m committed to bringing value and finding innovative solutions. When I’m not coding, you’ll likely find me exploring new tools, reading about user experience design, or enjoying a good coffee. If you’re looking for someone to bring your next web project to life, I’d be delighted to collaborate with you!"
-  },
+"about": {
+  "title": "About Me",
+  "text": "Hi! I’m Diego Lázaro, a full stack web developer passionate about building dynamic and efficient applications. I love turning ideas into modern, functional digital experiences that blend clean, scalable code with engaging design. I have experience with technologies such as JavaScript, React, Node.js, Express, MongoDB, HTML, and CSS, and hold certifications from Ironhack and Microsoft Azure Fundamentals. I’m driven by continuous learning and enjoy exploring new tools that enhance productivity and innovation. With a background in project and team management within the events industry, I bring an organized, problem-solving, and detail-oriented mindset to every project. If you’re looking for a developer with a global vision and strong commitment, I’d love to collaborate on your next digital project."
+},
   "contact": "Contact Me",
   "projects": {
     "title": "My Projects",
